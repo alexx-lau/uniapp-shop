@@ -1,0 +1,76 @@
+.category .header {
+  padding: 20rpx 0;
+}
+.category .header .search {
+  width: 90%;
+  height: 60rpx;
+  line-height: 60rpx;
+  border: 2rpx solid #ccc;
+  background-color: #ccc;
+  border-radius: 4rpx;
+  margin: 0 auto;
+  font-size: 26rpx;
+  text-align: center;
+}
+.category .main-area {
+  display: flex;
+  height: calc(100vh - 102rpx);
+  border-top: 2rpx solid #ccc;
+}
+.category .main-area .left-area {
+  width: 20%;
+  height: 100%;
+  border-right: 2rpx solid #ccc;
+}
+.category .main-area .left-area .left-nav-scroll {
+  height: 100%;
+}
+.category .main-area .left-area .left-nav-scroll .left-nav-item {
+  position: relative;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 26rpx;
+  text-align: center;
+  justify-content: space-around;
+}
+.category .main-area .left-area .left-nav-scroll .left-nav-item.active::before {
+  content: "";
+  width: 2rpx;
+  height: 60rpx;
+  position: absolute;
+  left: 5rpx;
+  top: 5rpx;
+  background-color: #f00;
+}
+.category .main-area .right-area {
+  width: 80%;
+  text-align: center;
+  height: 100%;
+}
+.category .main-area .right-area .right-image {
+  width: 90%;
+  display: block;
+  height: 300rpx;
+  margin: 20rpx auto;
+}
+.category .main-area .right-area .right-nav-scroll {
+  height: calc(100vh - 102rpx - 320rpx);
+}
+.category .main-area .right-area .right-nav-scroll .right-nav-item-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.category .main-area .right-area .right-nav-scroll .right-nav-item {
+  width: 33.33%;
+  height: 300rpx;
+  margin: 20rpx 0;
+}
+.category .main-area .right-area .right-nav-scroll .right-nav-item .right-nav-item-image {
+  width: 140rpx;
+  height: 180rpx;
+}
+.category .main-area .right-area .right-nav-scroll .right-nav-item .right-nav-item-desc {
+  font-size: 26rpx;
+  text-align: center;
+}
+

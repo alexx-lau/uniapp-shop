@@ -1,0 +1,63 @@
+.goods-detail .header {
+  width: 570rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  color: #fff;
+  background-color: #800080;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 32rpx;
+}
+.goods-detail .goods-scroll {
+  height: calc(100vh - 90rpx);
+}
+.goods-detail .goods-scroll image {
+  width: 100%;
+  height: 570rpx;
+}
+.goods-detail .goods-scroll .tag {
+  width: 90%;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: #bb2c08;
+  margin: 20rpx auto;
+  text-align: center;
+  color: #fff;
+  font-size: 32rpx;
+  border-radius: 6rpx;
+}
+.goods-detail .goods-scroll .price {
+  color: #f00;
+  font-size: 50rpx;
+  margin: 20rpx;
+}
+.goods-detail .footer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100rpx;
+  line-height: 100rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 1rpx solid #ccc;
+}
+.goods-detail .footer .img {
+  flex: 1;
+}
+.goods-detail .footer .img image {
+  height: 60rpx;
+  width: 60rpx;
+  margin: 20rpx 40rpx;
+}
+.goods-detail .footer .btn {
+  flex: 2;
+  border-left: 1rpx solid #ccc;
+  text-align: center;
+  vertical-align: middle;
+}
+.goods-detail .footer .btn.cart {
+  background-color: #f00;
+  color: #fff;
+}
+
