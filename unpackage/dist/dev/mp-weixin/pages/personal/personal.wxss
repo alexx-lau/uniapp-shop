@@ -1,0 +1,31 @@
+.personal .header {
+  height: 250rpx;
+  line-height: 200rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #eed7b5;
+  position: relative;
+  text-align: center;
+}
+.personal .header .avatar {
+  width: 200rpx;
+  height: 200rpx;
+  vertical-align: middle;
+  margin: 20rpx;
+  border-radius: 10rpx;
+}
+.personal .header .username {
+  font-size: 36rpx;
+  text-align: left;
+}
+.personal .header .logout-button {
+  width: 200rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  display: block;
+  font-size: 26rpx;
+  position: absolute;
+  right: 5rpx;
+  vertical-align: middle;
+}
+

@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+@font-face {
+  font-family: "iconfont"; /* Project id 4757339 */
+  src: url('https://at.alicdn.com/t/c/font_4757339_ezm5yxpkblt.woff2?t=1732426595649') format('woff2'),
+       url('https://at.alicdn.com/t/c/font_4757339_ezm5yxpkblt.woff?t=1732426595649') format('woff'),
+       url('https://at.alicdn.com/t/c/font_4757339_ezm5yxpkblt.ttf?t=1732426595649') format('truetype');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sousuo-xuanzhong:before {
+  content: "\e633";
+}
+.icon-gouxuan:before {
+  content: "\e604";
+}
+.icon-sousuo:before {
+  content: "\e601";
+}
+

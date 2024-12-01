@@ -1,0 +1,57 @@
+.indexContainer .header {
+  display: flex;
+  flex-direction: row;
+  padding: 10rpx 5rpx;
+}
+.indexContainer .header .logo {
+  width: 140rpx;
+  height: 40rpx;
+  margin-top: 10rpx;
+}
+.indexContainer .header .search {
+  position: relative;
+  width: 420rpx;
+  height: 60rpx;
+  background: #f5f5f5;
+}
+.indexContainer .header .search button {
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  left: 4rpx;
+  font-size: 40rpx;
+}
+.indexContainer .header .search input {
+  width: 360rpx;
+  height: 60rpx;
+  margin-left: 60rpx;
+}
+.indexContainer .header .search input .placeholder {
+  font-size: 30rpx;
+  color: #87ceeb;
+}
+.indexContainer .header button {
+  width: 144rpx;
+  height: 60rpx;
+  font-size: 26rpx;
+  padding: 0 4rpx;
+  line-height: 60rpx;
+  text-align: center;
+}
+.indexContainer .navScroll {
+  white-space: nowrap;
+  display: flex;
+  height: 80rpx;
+}
+.indexContainer .navScroll .navItem {
+  display: inline-block;
+  width: 120rpx;
+  height: 40rpx;
+  padding: 12rpx;
+  font-size: 30rpx;
+}
+.indexContainer .navScroll .navItem.active {
+  border-bottom: 3rpx solid #ccc;
+  color: #f00;
+}
+
